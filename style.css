@@ -35,6 +35,10 @@
     text-decoration: underline;
 }
 
+.headerWrapper{
+    display: inline-block;
+}
+
 #currentWeatherIconWrapper {
     padding: 5px;
     text-align: center;
@@ -54,20 +58,19 @@
 }
 
 .forecastWrapper {
-    border-top: 1px solid darkgray;
-    border-right: 1px solid darkgray;
+    border: 1px solid darkgray;
+    border-bottom: 0;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
     height: 100px;
     text-align: center;
     padding: 3px;
     background-color: #c8cfd6;
+    display: inline-block;
 }
 
 .forecastTempText {
     text-decoration: underline;
-}
-
-#day6Wrapper {
-    border-right: 0;
 }
 
 .forecasticon {

@@ -12,24 +12,24 @@
 <body>
     <div id="appPartWrapper" class="container">
         <div id="headerRow" class="row">
-            <div id="dateHeaderWrapper" class="col-sm-4">
-                <h5 id="dateHeader"></h4>
+            <div id="dateHeaderWrapper" class="col-sm-4 headerWrapper pull-left">
+                <h5 id="dateHeader"></h5>
             </div>
-            <div class="col-sm-4">
+            <div class="col-sm-4 headerWrapper">
                 <h4 id="locationHeader">Stockholm</h4>
             </div>
-            <div id="detailsLinkHeaderWrapper" class="col-sm-4">
+            <div id="detailsLinkHeaderWrapper" class="col-sm-4 headerWrapper pull-right">
                 <h5><a href="#" id="detailsLinkHeader">Details &raquo;</a></h5>
             </div>
         </div>
-        <div id="currentWeatherIconWrapper" class="row">
+        <div id="currentWeatherIconWrapper" class="row col-sm-12">
             <canvas id="currentWeatherIcon"></canvas>
         </div>
-        <div id="currentTemperatureWrapper" class="row">
+        <div id="currentTemperatureWrapper" class="row col-sm-12">
             <h5 id="currentTemperature"></h5>
             <p id="currentWeatherSummary"></p>
         </div>
-        <div class="row">
+        <div class="row col-sm-12">
             <div id="day1Wrapper" class="col-sm-2 forecastWrapper">
                 <p id="forecastDay1" class="forecastTempText"></p>
                 <p id="forecastTemp1"></p>
@@ -62,8 +62,6 @@
             </div>
         </div>
     </div>
-
-
     <script type="text/javascript" src="jquery-1.9.1.min.js"></script>
     <script type="text/javascript" src="bootstrap.min.js"></script>
     <script type="text/javascript" src="moment.js"></script>

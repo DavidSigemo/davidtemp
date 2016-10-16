@@ -1,4 +1,4 @@
-﻿(function(global) {
+﻿(function (global) {
     "use strict";
 
     var tempUnit = "F";
@@ -18,8 +18,8 @@
     }
 
     function eventhandlers() {
-        $('#detailsLinkHeader').on("click", function(){
-            window.open("file:///H:/Skola/Visual%20Studio/SharePoint%20Gurus/local%20testing%20-%20SPA/index.html", "_blank");
+        $('#detailsLinkHeader').on("click", function () {
+            window.open("https://blargh-ad1345ce59a51a.sharepoint.com/sites/dev/SharePointWeatherAddIn/", "_blank");
         });
     }
 
@@ -36,7 +36,7 @@
         $.ajax({
             url: url,
             dataType: "jsonp",
-            success: function(responseData) {
+            success: function (responseData) {
                 initDataTable(responseData);
                 //initGraph(responseData);
             }
