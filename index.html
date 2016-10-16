@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <div id="appPartWrapper" class="container">
+        <div id="headerRow" class="row">
+            <div id="dateHeaderWrapper" class="col-sm-4">
+                <h5 id="dateHeader"></h4>
+            </div>
+            <div class="col-sm-4">
+                <h4 id="locationHeader">Stockholm</h4>
+            </div>
+            <div id="detailsLinkHeaderWrapper" class="col-sm-4">
+                <a href="#" id="detailsLinkHeader">Details &raquo;</a>
+            </div>
+        </div>
+        <div id="currentWeatherIconWrapper" class="row">
+            <canvas id="currentWeatherIcon"></canvas>
+        </div>
+        <div id="currentTemperatureWrapper" class="row">
+            <h5 id="currentTemperature"></h5>
+            <p id="currentWeatherSummary"></p>
+        </div>
+        <div class="row">
+            <div id="day1Wrapper" class="col-sm-2 forecastWrapper">
+                <p id="forecastDay1" class="forecastTempText"></p>
+                <p id="forecastTemp1"></p>
+                <canvas id="forecasticon1" class="forecasticon"></canvas>
+            </div>
+            <div id="day2Wrapper" class="col-sm-2 forecastWrapper">
+                <p id="forecastDay2" class="forecastTempText"></p>
+                <p id="forecastTemp2"></p>
+                <canvas id="forecasticon2" class="forecasticon"></canvas>
+            </div>
+            <div id="day3Wrapper" class="col-sm-2 forecastWrapper">
+                <p id="forecastDay3" class="forecastTempText"></p>
+                <p id="forecastTemp3"></p>
+                <canvas id="forecasticon3" class="forecasticon"></canvas>
+            </div>
+            <div id="day4Wrapper" class="col-sm-2 forecastWrapper">
+                <p id="forecastDay4" class="forecastTempText"></p>
+                <p id="forecastTemp4"></p>
+                <canvas id="forecasticon4" class="forecasticon"></canvas>
+            </div>
+            <div id="day5Wrapper" class="col-sm-2 forecastWrapper">
+                <p id="forecastDay5" class="forecastTempText"></p>
+                <p id="forecastTemp5"></p>
+                <canvas id="forecasticon5" class="forecasticon"></canvas>
+            </div>
+            <div id="day6Wrapper" class="col-sm-2 forecastWrapper">
+                <p id="forecastDay6" class="forecastTempText"></p>
+                <p id="forecastTemp6"></p>
+                <canvas id="forecasticon6" class="forecasticon"></canvas>
+            </div>
+        </div>
+    </div>
+
+
+    <script type="text/javascript" src="jquery-1.9.1.min.js"></script>
+    <script type="text/javascript" src="bootstrap.min.js"></script>
+    <script type="text/javascript" src="moment.js"></script>
+    <script type="text/javascript" src="skycons.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+</body>
+
+</html>

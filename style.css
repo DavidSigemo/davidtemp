@@ -1,0 +1,75 @@
+#appPartWrapper {
+    margin-top: 10px;
+    border: 1px solid darkgray;
+    border-radius: 3px;
+    width: 400px;
+    /*height: 300px;*/
+    color: black;
+    background-color: #778899;
+}
+
+#headerRow {
+    text-align: center;
+    border-bottom: 1px solid darkgray;
+    background-color: #778899;
+}
+
+#dateHeaderWrapper {
+    text-align: left;
+}
+
+#dateHeader {
+    margin-top: 12px;
+}
+
+#detailsLinkHeaderWrapper {
+    text-align: right;
+    padding-right: 5px;
+}
+
+#detailsLinkHeader {
+    color: black;
+}
+
+#headerRow h4 {
+    text-decoration: underline;
+}
+
+#currentWeatherIconWrapper {
+    padding: 5px;
+    text-align: center;
+    background-color: #c8cfd6;
+}
+
+#currentTemperatureWrapper {
+    padding-top: 10px;
+    text-align: center;
+    background-color: #778899;
+}
+
+#currentTemperatureTextExtra,
+#currentTemperature {
+    display: inline;
+    font-size: 16pt;
+}
+
+.forecastWrapper {
+    border-top: 1px solid darkgray;
+    border-right: 1px solid darkgray;
+    height: 100px;
+    text-align: center;
+    padding: 3px;
+    background-color: #c8cfd6;
+}
+
+.forecastTempText {
+    text-decoration: underline;
+}
+
+#day6Wrapper {
+    border-right: 0;
+}
+
+.forecasticon {
+    width: 50px;
+}
